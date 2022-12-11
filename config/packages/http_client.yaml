@@ -1,0 +1,8 @@
+# config/packages/http_client.yaml
+framework:
+    http_client:
+        scoped_clients:
+            wsse.client:
+                base_uri: 'http://learningpage.in'
+                headers:
+                    Accept: 'application/json'
